@@ -10,7 +10,7 @@ class Tab3Screen extends StatefulWidget {
 }
 
 class _Tab3ScreenState extends State<Tab3Screen> {
-  double _val = 0.5;
+  double _val = 0.85;
   bool _sync = true;
 
   @override
@@ -40,7 +40,7 @@ class _Tab3ScreenState extends State<Tab3Screen> {
                   ],
                 ),
                 const Divider(height: 24),
-                const Text('Threshold Slider', style: TextStyle(fontSize: 15)),
+                const Text('Soundscape Crossfade Time', style: const TextStyle(fontSize: 15)),
                 Slider(
                   value: _val,
                   activeColor: AppTheme.secondaryColor,
@@ -57,7 +57,7 @@ class _Tab3ScreenState extends State<Tab3Screen> {
               children: [
                 ListTile(
                   leading: const Icon(Icons.settings, color: AppTheme.secondaryColor),
-                  title: const Text('Detailed Calibration'),
+                  title: const Text('Smart Sleep Auto-Fade'),
                   subtitle: const Text('Adaptive settings presets'),
                   trailing: const Icon(Icons.arrow_forward_ios, size: 14),
                   onTap: () => RoutingService.openRegistrationUrl(),
