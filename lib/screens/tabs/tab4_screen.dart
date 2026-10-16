@@ -23,7 +23,7 @@ class Tab4Screen extends StatelessWidget {
                   child: const Icon(Icons.person, size: 40, color: AppTheme.primaryColor),
                 ),
                 const SizedBox(height: 12),
-                const Text('Serene #7712', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                const Text('Serene #7712', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold), maxLines: 1, overflow: TextOverflow.ellipsis),
                 const Text('Tier: Zen Dreamer: Active', style: TextStyle(color: AppTheme.secondaryColor, fontSize: 13)),
               ],
             ),

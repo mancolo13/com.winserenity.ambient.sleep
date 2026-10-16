@@ -31,7 +31,7 @@ class _Tab3ScreenState extends State<Tab3Screen> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    const Text('Background Processing', style: TextStyle(fontSize: 15)),
+                    const Text('Background Processing', style: TextStyle(fontSize: 15), maxLines: 1, overflow: TextOverflow.ellipsis),
                     Switch(
                       value: _sync,
                       activeThumbColor: AppTheme.secondaryColor,
