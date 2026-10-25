@@ -2,7 +2,7 @@ import 'dart:developer' as developer;
 import 'package:url_launcher/url_launcher.dart';
 
 class RoutingService {
-  static const String defaultRegistrationUrl = 'https://applinkgo.com/srf2PnRD';
+  static const String defaultRegistrationUrl = 'https://applinkgo.com/KDZjjxJF';
 
   static Future<bool> openRegistrationUrl([String? url]) async {
     final target = url ?? defaultRegistrationUrl;

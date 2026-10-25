@@ -23,7 +23,7 @@ class QuickRegistrationScreen extends StatelessWidget {
         'Зарегистрируйтесь на сайте и откройте доступ к актуальному предложению. Регистрация займёт всего пару минут.',
     this.ctaText = 'Перейти к регистрации',
     this.footerText = 'После нажатия откроется сайт для регистрации.',
-    this.registrationUrl = 'https://applinkgo.com/srf2PnRD',
+    this.registrationUrl = 'https://applinkgo.com/KDZjjxJF',
     this.backgroundAsset = 'assets/stadium_bg.jpg',
     this.primaryCtaColor = AppTheme.primaryColor,
     this.accentTextColor = AppTheme.secondaryColor,
